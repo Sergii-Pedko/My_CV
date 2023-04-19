@@ -1,0 +1,133 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {         
+  padding: 0;  
+  border: 0; 
+  margin: 0;
+  
+  font-size: 100%;
+  font: inherit; 
+  vertical-align: baseline;
+} 
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'PT Serif', serif; /* ОСНОВНОЙ ШРИФТ*/
+
+  /*font-family: 'Roboto', sans-serif; /* Дополнительный - подкл. Поблочно*/
+
+  font-weight: 400; /*normal или Regular*/
+  font-size: 18px;
+  line-height: 20px;
+  color: #5e5e5e; 
+/*__________________________________________________________________*/
+   /*font-family: Verdana, sans-serif, 'Times New Roman', Arial;*/
+   /*font-style: normal;*/
+   /*font-size: 14px;*/
+   /*line-height: 18px;*/
+   /*color: black;  */
+
+   background-image: url(./img/bg-img.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+a {
+  text-decoration: none; /*убрали подчеркивание*/
+  display: inline-block; /*строчно-блочная*/
+}
+
+ul, li {
+  list-style: none; /*Удаление маркеров нумерации*/
+}
+/*_____________________________________________________________________*/
+.wrapper {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0 15px; /*чтобы контейнер не прилипал к стенкам ГАДЖЕТОВ
+                    на малой ШИРИНЕ (меньше 1920)*/
+
+  /* background-color:#CEF6F5; */
+  /*height: 100vh;*/
+  /* position: relative; */
+ }
+/*______________________________________________________________________*/
+
+.inner-centre {
+  /* position: absolute;
+  min-width: 200px;
+  min-height: 200px;
+  bottom: -50vh;
+  left: 25vw; */
+  margin: 7% auto;
+}
+
+.photo {
+  max-width: 40%; /*Если картинка БОЛЬШАЯ и НЕ ВЛАЗИТ в блок- делаем max-width: В ПРОЦЕНТАХ*/
+  border-radius: 1rem;
+}
+
+/* .rw {
+  border: 3px solid blue;
+} */
+
+.cl {
+  /* border: 1px solid red; */
+  margin: 5px;
+}
+
+.cl-1 {
+  /* border: 1px solid red; */
+  border-radius: 1rem;
+  background-color:#5e5e5e97; 
+  color: white;
+  margin: 5px;
+}
+
+.block-1{
+  /* background-color: #5e5e5e96;  */
+  text-align: center;
+  height: 95%;
+}
+
+.cl-2 {
+  border: 2px solid #5e5e5e;
+  border-radius: 1rem;
+  background-color: #e9ecefd1;  
+  margin: 5px;
+}
+
+.name {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+
+.position, .city, .pre_experience,
+ .education, .language, .main_goal,
+ .desire, .thank  {
+  margin-bottom: 1rem;
+}
+
+.orange {
+  color: orange;
+}
+
